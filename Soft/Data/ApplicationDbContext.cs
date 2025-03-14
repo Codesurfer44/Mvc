@@ -1,7 +1,8 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Mvc.Domain;
 
-namespace Soft.Data;
+namespace Mvc.Soft.Data;
 
 public class ApplicationDbContext : IdentityDbContext
 {
@@ -9,4 +10,6 @@ public class ApplicationDbContext : IdentityDbContext
         : base(options)
     {
     }
+
+    public DbSet<Movie> Movie { get; set; } = default!;
 }
