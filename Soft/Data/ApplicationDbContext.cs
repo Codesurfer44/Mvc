@@ -12,4 +12,6 @@ public class ApplicationDbContext : IdentityDbContext
     }
 
     public DbSet<Movie> Movie { get; set; } = default!;
+
+    public DbSet<Books> Books { get; set; } = default!;
 }
