@@ -15,7 +15,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "C:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Domain\\Domain.csproj",
-      "projectName": "Mvc.Domain",
+      "projectName": ".Domain",
       "projectPath": "C:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\Codes\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Domain\\obj\\",

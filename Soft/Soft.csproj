@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <None Update="app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
+    <ProjectReference Include="..\Infra\Infra.csproj" />
   </ItemGroup>
 
   <ItemGroup>

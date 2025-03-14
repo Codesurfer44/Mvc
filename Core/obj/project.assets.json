@@ -194,6 +194,16 @@
             "related": ".xml"
           }
         }
+      },
+      "Mvc.Aids/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Mvc.Aids.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mvc.Aids.dll": {}
+        }
       }
     }
   },
@@ -515,11 +525,17 @@
         "microsoft.jsinterop.9.0.2.nupkg.sha512",
         "microsoft.jsinterop.nuspec"
       ]
+    },
+    "Mvc.Aids/1.0.0": {
+      "type": "project",
+      "path": "../Aids/Aids.csproj",
+      "msbuildProject": "../Aids/Aids.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "Microsoft.AspNetCore.Components.Web >= 9.0.2"
+      "Microsoft.AspNetCore.Components.Web >= 9.0.2",
+      "Mvc.Aids >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -554,7 +570,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Aids\\Aids.csproj": {
+              "projectPath": "C:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Aids\\Aids.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

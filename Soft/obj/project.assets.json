@@ -1257,6 +1257,29 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      ".Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/.Domain.dll": {}
+        }
+      },
+      ".Infra/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          ".Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/.Infra.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/.Infra.dll": {}
+        }
       }
     }
   },
@@ -3553,10 +3576,21 @@
         "system.threading.channels.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    ".Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
+    },
+    ".Infra/1.0.0": {
+      "type": "project",
+      "path": "../Infra/Infra.csproj",
+      "msbuildProject": "../Infra/Infra.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      ".Infra >= 1.0.0",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 9.0.2",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 9.0.2",
       "Microsoft.AspNetCore.Identity.UI >= 9.0.2",
@@ -3596,7 +3630,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "c:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Infra\\Infra.csproj": {
+              "projectPath": "c:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Infra\\Infra.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
