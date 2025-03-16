@@ -8499,11 +8499,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Soft\\Soft.csproj",
+      "projectUniqueName": "C:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Soft\\Soft.csproj",
       "projectName": ".Soft",
-      "projectPath": "c:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Soft\\Soft.csproj",
+      "projectPath": "C:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Soft\\Soft.csproj",
       "packagesPath": "C:\\Users\\Codes\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Soft\\obj\\",
+      "outputPath": "C:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Soft\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -8525,8 +8525,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "c:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Infra\\Infra.csproj": {
-              "projectPath": "c:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Infra\\Infra.csproj"
+            "C:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Infra\\Infra.csproj": {
+              "projectPath": "C:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Infra\\Infra.csproj"
             }
           }
         }
