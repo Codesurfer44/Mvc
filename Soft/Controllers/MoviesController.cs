@@ -2,12 +2,16 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Mvc.Domain;
 using Mvc.Soft.Data;
+using Mvc.Infra;
+using NuGet.Protocol;
+
 
 namespace Mvc.Soft.Controllers;
 
 public class MoviesController(ApplicationDbContext c) : Controller {
     private readonly ApplicationDbContext context = c;
-    public async Task<IActionResult> Index() => View(await context.Movie.ToListAsync());
+    private readonly Repo<Movie> r = new(c);
+    public async Task<IActionResult> Index() => View(await r.GetAsync());
     public async Task<IActionResult> Details(int? id)
     {
         if (id == null) return NotFound();
