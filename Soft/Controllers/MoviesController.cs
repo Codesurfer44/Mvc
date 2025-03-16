@@ -11,7 +11,7 @@ public class MoviesController(ApplicationDbContext c) : Controller {
     public async Task<IActionResult> Details(int? id)
     {
         if (id == null) return NotFound();
-        var movie = await context.Movie.FirstOrDefaultAsync(m => m.Id == id);
+        var movie = await context.Movie.FindAsync(id);
         if (movie == null) return NotFound();
         return View(movie);
     }
@@ -19,7 +19,7 @@ public class MoviesController(ApplicationDbContext c) : Controller {
     [HttpPost, ValidateAntiForgeryToken]
     public async Task<IActionResult> Create(Movie movie) {
         if (!ModelState.IsValid) return View(movie);
-        context.Add(movie);
+        context.Movie.Add(movie);
         await context.SaveChangesAsync();
         return RedirectToAction(nameof(Index));
     }
@@ -33,18 +33,13 @@ public class MoviesController(ApplicationDbContext c) : Controller {
     public async Task<IActionResult> Edit(int id, Movie movie) {
         if (id != movie.Id) return NotFound();
         if (!ModelState.IsValid) return View(movie);
-        try {
-            context.Update(movie);
-            await context.SaveChangesAsync();
-        } catch (DbUpdateConcurrencyException) {
-            if (!MovieExists(movie.Id)) return NotFound();
-            else throw;
-        }
+        context.Movie.Update(movie);
+        await context.SaveChangesAsync();
         return RedirectToAction(nameof(Index));
     }
     public async Task<IActionResult> Delete(int? id) {
         if (id == null) return NotFound();
-        var movie = await context.Movie.FirstOrDefaultAsync(m => m.Id == id);
+        var movie = await context.Movie.FindAsync(id);
         if (movie == null) return NotFound();
         return View(movie);
     }
@@ -55,5 +50,4 @@ public class MoviesController(ApplicationDbContext c) : Controller {
         await context.SaveChangesAsync();
         return RedirectToAction(nameof(Index));
     }
-    private bool MovieExists(int id) => context.Movie.Any(e => e.Id == id);
 }
