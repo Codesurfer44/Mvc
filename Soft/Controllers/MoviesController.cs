@@ -21,8 +21,7 @@ public class MoviesController(ApplicationDbContext c) : Controller {
     [HttpPost, ValidateAntiForgeryToken]
     public async Task<IActionResult> Create(Movie movie) {
         if (!ModelState.IsValid) return View(movie);
-        context.Movie.Add(movie);
-        await context.SaveChangesAsync();
+        await r.AddAsync(movie);
         return RedirectToAction(nameof(Index));
     }
     public async Task<IActionResult> Edit(int? id) {
@@ -34,7 +33,7 @@ public class MoviesController(ApplicationDbContext c) : Controller {
         if (id != movie.Id) return NotFound();
         if (!ModelState.IsValid) return View(movie);
         context.Movie.Update(movie);
-        await context.SaveChangesAsync();
+        await r.UpdateAsync(movie);
         return RedirectToAction(nameof(Index));
     }
     public async Task<IActionResult> Delete(int? id) {
@@ -43,9 +42,7 @@ public class MoviesController(ApplicationDbContext c) : Controller {
     }
     [HttpPost, ActionName("Delete"), ValidateAntiForgeryToken]
     public async Task<IActionResult> DeleteConfirmed(int id) {
-        var movie = await context.Movie.FindAsync(id);
-        if (movie != null) context.Movie.Remove(movie);
-        await context.SaveChangesAsync();
+        await r.DeleteAsync(id);
         return RedirectToAction(nameof(Index));
     }
 }
