@@ -7,4 +7,5 @@ public class Repo<T>(DbContext c) where T: Entity {
     private readonly DbSet<T> set = c.Set<T>();
 
     public async Task<IEnumerable<T>> GetAsync() => await set.ToListAsync();
+    public async Task<T?> GetAsync(int? id) => (id is null) ? null : await set.FindAsync(id);
 }

@@ -14,10 +14,8 @@ public class MoviesController(ApplicationDbContext c) : Controller {
     public async Task<IActionResult> Index() => View(await r.GetAsync());
     public async Task<IActionResult> Details(int? id)
     {
-        if (id == null) return NotFound();
-        var movie = await context.Movie.FindAsync(id);
-        if (movie == null) return NotFound();
-        return View(movie);
+        var movie = await r.GetAsync(id);
+        return (movie == null) ? NotFound() : View(movie);
     }
     public IActionResult Create() => View();
     [HttpPost, ValidateAntiForgeryToken]
@@ -28,10 +26,8 @@ public class MoviesController(ApplicationDbContext c) : Controller {
         return RedirectToAction(nameof(Index));
     }
     public async Task<IActionResult> Edit(int? id) {
-        if (id == null) return NotFound();
-        var movie = await context.Movie.FindAsync(id);
-        if (movie == null) return NotFound();
-        return View(movie);
+        var movie = await r.GetAsync(id);
+        return (movie == null) ? NotFound() : View(movie);
     }
     [HttpPost, ValidateAntiForgeryToken]
     public async Task<IActionResult> Edit(int id, Movie movie) {
@@ -42,10 +38,8 @@ public class MoviesController(ApplicationDbContext c) : Controller {
         return RedirectToAction(nameof(Index));
     }
     public async Task<IActionResult> Delete(int? id) {
-        if (id == null) return NotFound();
-        var movie = await context.Movie.FindAsync(id);
-        if (movie == null) return NotFound();
-        return View(movie);
+        var movie = await r.GetAsync(id);
+        return (movie == null) ? NotFound() : View(movie);
     }
     [HttpPost, ActionName("Delete"), ValidateAntiForgeryToken]
     public async Task<IActionResult> DeleteConfirmed(int id) {
