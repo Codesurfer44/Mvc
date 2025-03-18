@@ -2759,14 +2759,14 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
-      "Mvc.Aids/1.0.0": {
+      ".Aids/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "compile": {
-          "bin/placeholder/Mvc.Aids.dll": {}
+          "bin/placeholder/.Aids.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Mvc.Aids.dll": {}
+          "bin/placeholder/.Aids.dll": {}
         }
       }
     }
@@ -7830,7 +7830,7 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
-    "Mvc.Aids/1.0.0": {
+    ".Aids/1.0.0": {
       "type": "project",
       "path": "../Aids/Aids.csproj",
       "msbuildProject": "../Aids/Aids.csproj"
@@ -7838,10 +7838,10 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      ".Aids >= 1.0.0",
       "Microsoft.AspNetCore.Components.Web >= *",
       "Microsoft.AspNetCore.Html.Abstractions >= *",
-      "Microsoft.AspNetCore.Mvc >= *",
-      "Mvc.Aids >= 1.0.0"
+      "Microsoft.AspNetCore.Mvc >= *"
     ]
   },
   "packageFolders": {
@@ -7852,7 +7852,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "C:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\Core.csproj",
-      "projectName": "Mvc.Core",
+      "projectName": ".Core",
       "projectPath": "C:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\Core.csproj",
       "packagesPath": "C:\\Users\\Codes\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\obj\\",

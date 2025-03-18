@@ -1,48 +1,48 @@
 {
   "Version": 1,
-  "Hash": "+UftlnLvDpFEjql5BiGYBYL1USs3XkpzbvYWVRB8XfA=",
-  "Source": "Mvc.Core",
-  "BasePath": "_content/Mvc.Core",
+  "Hash": "begqcP6JNyKvXkGkmhqf9fgrbMExqPZDQz9Bz3ejiac=",
+  "Source": ".Core",
+  "BasePath": "_content/.Core",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "Mvc.Core\\wwwroot",
-      "Source": "Mvc.Core",
-      "ContentRoot": "C:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\wwwroot\\",
-      "BasePath": "_content/Mvc.Core",
+      "Name": ".Core\\wwwroot",
+      "Source": ".Core",
+      "ContentRoot": "c:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\wwwroot\\",
+      "BasePath": "_content/.Core",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\obj\\Debug\\net9.0\\compressed\\zxrd1djrz5-6pqz8bsss0.gz",
-      "SourceId": "Mvc.Core",
+      "Identity": "c:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\obj\\Debug\\net9.0\\compressed\\rspg412itf-6pqz8bsss0.gz",
+      "SourceId": ".Core",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\obj\\Debug\\net9.0\\compressed\\",
-      "BasePath": "_content/Mvc.Core",
+      "ContentRoot": "c:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/.Core",
       "RelativePath": "exampleJsInterop#[.{fingerprint=6pqz8bsss0}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\wwwroot\\exampleJsInterop.js",
+      "RelatedAsset": "c:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\wwwroot\\exampleJsInterop.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "xjolhk8n0c",
       "Integrity": "jTBIIjClUy4dLr1F1GGFnkUyxu8d94Yg0DDwfj94MPQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\wwwroot\\exampleJsInterop.js"
+      "OriginalItemSpec": "c:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\wwwroot\\exampleJsInterop.js"
     },
     {
-      "Identity": "C:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\wwwroot\\background.png",
-      "SourceId": "Mvc.Core",
+      "Identity": "c:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\wwwroot\\background.png",
+      "SourceId": ".Core",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\wwwroot\\",
-      "BasePath": "_content/Mvc.Core",
+      "ContentRoot": "c:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\wwwroot\\",
+      "BasePath": "_content/.Core",
       "RelativePath": "background#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -59,11 +59,11 @@
       "OriginalItemSpec": "wwwroot\\background.png"
     },
     {
-      "Identity": "C:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\wwwroot\\exampleJsInterop.js",
-      "SourceId": "Mvc.Core",
+      "Identity": "c:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\wwwroot\\exampleJsInterop.js",
+      "SourceId": ".Core",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\wwwroot\\",
-      "BasePath": "_content/Mvc.Core",
+      "ContentRoot": "c:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\wwwroot\\",
+      "BasePath": "_content/.Core",
       "RelativePath": "exampleJsInterop#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -83,7 +83,7 @@
   "Endpoints": [
     {
       "Route": "background.png",
-      "AssetFile": "C:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\wwwroot\\background.png",
+      "AssetFile": "c:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\wwwroot\\background.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -120,7 +120,7 @@
     },
     {
       "Route": "background.x2rx4ajns0.png",
-      "AssetFile": "C:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\wwwroot\\background.png",
+      "AssetFile": "c:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\wwwroot\\background.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -165,7 +165,7 @@
     },
     {
       "Route": "exampleJsInterop.6pqz8bsss0.js",
-      "AssetFile": "C:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\obj\\Debug\\net9.0\\compressed\\zxrd1djrz5-6pqz8bsss0.gz",
+      "AssetFile": "c:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\obj\\Debug\\net9.0\\compressed\\rspg412itf-6pqz8bsss0.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -228,7 +228,7 @@
     },
     {
       "Route": "exampleJsInterop.6pqz8bsss0.js",
-      "AssetFile": "C:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\wwwroot\\exampleJsInterop.js",
+      "AssetFile": "c:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\wwwroot\\exampleJsInterop.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -273,7 +273,7 @@
     },
     {
       "Route": "exampleJsInterop.6pqz8bsss0.js.gz",
-      "AssetFile": "C:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\obj\\Debug\\net9.0\\compressed\\zxrd1djrz5-6pqz8bsss0.gz",
+      "AssetFile": "c:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\obj\\Debug\\net9.0\\compressed\\rspg412itf-6pqz8bsss0.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -326,7 +326,7 @@
     },
     {
       "Route": "exampleJsInterop.js",
-      "AssetFile": "C:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\obj\\Debug\\net9.0\\compressed\\zxrd1djrz5-6pqz8bsss0.gz",
+      "AssetFile": "c:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\obj\\Debug\\net9.0\\compressed\\rspg412itf-6pqz8bsss0.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -381,7 +381,7 @@
     },
     {
       "Route": "exampleJsInterop.js",
-      "AssetFile": "C:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\wwwroot\\exampleJsInterop.js",
+      "AssetFile": "c:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\wwwroot\\exampleJsInterop.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -418,7 +418,7 @@
     },
     {
       "Route": "exampleJsInterop.js.gz",
-      "AssetFile": "C:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\obj\\Debug\\net9.0\\compressed\\zxrd1djrz5-6pqz8bsss0.gz",
+      "AssetFile": "c:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\obj\\Debug\\net9.0\\compressed\\rspg412itf-6pqz8bsss0.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
