@@ -1,11 +1,11 @@
+C:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Domain\obj\Debug\net9.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Domain\obj\Debug\net9.0\Domain.AssemblyInfoInputs.cache
+C:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Domain\obj\Debug\net9.0\Domain.AssemblyInfo.cs
+C:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Domain\obj\Debug\net9.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Domain\obj\Debug\net9.0\Domain.sourcelink.json
 c:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Domain\bin\Debug\net9.0\.Domain.deps.json
 c:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Domain\bin\Debug\net9.0\.Domain.dll
 c:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Domain\bin\Debug\net9.0\.Domain.pdb
-c:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Domain\obj\Debug\net9.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
-c:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Domain\obj\Debug\net9.0\Domain.AssemblyInfoInputs.cache
-c:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Domain\obj\Debug\net9.0\Domain.AssemblyInfo.cs
-c:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Domain\obj\Debug\net9.0\Domain.csproj.CoreCompileInputs.cache
-c:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Domain\obj\Debug\net9.0\Domain.sourcelink.json
 c:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Domain\obj\Debug\net9.0\.Domain.dll
 c:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Domain\obj\Debug\net9.0\refint\.Domain.dll
 c:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Domain\obj\Debug\net9.0\.Domain.pdb

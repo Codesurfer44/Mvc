@@ -150,7 +150,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "c:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Soft\\Soft.csproj",
-        "projectName": ".Soft",
+        "projectName": "Soft",
         "projectPath": "c:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Soft\\Soft.csproj",
         "packagesPath": "C:\\Users\\Codes\\.nuget\\packages\\",
         "outputPath": "c:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Soft\\obj\\",

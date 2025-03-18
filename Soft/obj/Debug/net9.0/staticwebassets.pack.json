@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "c:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Soft\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\.Soft.bundle.scp.css",
-      "PackagePath": "staticwebassets\\.Soft.93lnxj1lq5.bundle.scp.css"
+      "Id": "c:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Soft\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Soft.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Soft.4gt9n8xsgv.bundle.scp.css"
     },
     {
       "Id": "c:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Soft\\wwwroot\\css\\site.css",
@@ -257,24 +257,24 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
     },
     {
-      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild..Soft.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Soft.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
-      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild..Soft.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Soft.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build..Soft.props",
-      "PackagePath": "build\\.Soft.props"
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.Soft.props",
+      "PackagePath": "build\\Soft.props"
     },
     {
-      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting..Soft.props",
-      "PackagePath": "buildMultiTargeting\\.Soft.props"
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.Soft.props",
+      "PackagePath": "buildMultiTargeting\\Soft.props"
     },
     {
-      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive..Soft.props",
-      "PackagePath": "buildTransitive\\.Soft.props"
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.Soft.props",
+      "PackagePath": "buildTransitive\\Soft.props"
     }
   ],
   "ElementsToRemove": []

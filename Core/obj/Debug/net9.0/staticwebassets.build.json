@@ -1,27 +1,27 @@
 {
   "Version": 1,
-  "Hash": "F6F9byBvgKK4vAswqE/vVCjISi3/P5PpFy5z+0dLPFI=",
-  "Source": "Core",
-  "BasePath": "_content/Core",
+  "Hash": "+UftlnLvDpFEjql5BiGYBYL1USs3XkpzbvYWVRB8XfA=",
+  "Source": "Mvc.Core",
+  "BasePath": "_content/Mvc.Core",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "Core\\wwwroot",
-      "Source": "Core",
+      "Name": "Mvc.Core\\wwwroot",
+      "Source": "Mvc.Core",
       "ContentRoot": "C:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\wwwroot\\",
-      "BasePath": "_content/Core",
+      "BasePath": "_content/Mvc.Core",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\obj\\Debug\\net9.0\\compressed\\sqyknivdrx-6pqz8bsss0.gz",
-      "SourceId": "Core",
+      "Identity": "C:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\obj\\Debug\\net9.0\\compressed\\zxrd1djrz5-6pqz8bsss0.gz",
+      "SourceId": "Mvc.Core",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\obj\\Debug\\net9.0\\compressed\\",
-      "BasePath": "_content/Core",
+      "BasePath": "_content/Mvc.Core",
       "RelativePath": "exampleJsInterop#[.{fingerprint=6pqz8bsss0}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -39,10 +39,10 @@
     },
     {
       "Identity": "C:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\wwwroot\\background.png",
-      "SourceId": "Core",
+      "SourceId": "Mvc.Core",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\wwwroot\\",
-      "BasePath": "_content/Core",
+      "BasePath": "_content/Mvc.Core",
       "RelativePath": "background#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -60,10 +60,10 @@
     },
     {
       "Identity": "C:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\wwwroot\\exampleJsInterop.js",
-      "SourceId": "Core",
+      "SourceId": "Mvc.Core",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\wwwroot\\",
-      "BasePath": "_content/Core",
+      "BasePath": "_content/Mvc.Core",
       "RelativePath": "exampleJsInterop#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -165,7 +165,7 @@
     },
     {
       "Route": "exampleJsInterop.6pqz8bsss0.js",
-      "AssetFile": "C:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\obj\\Debug\\net9.0\\compressed\\sqyknivdrx-6pqz8bsss0.gz",
+      "AssetFile": "C:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\obj\\Debug\\net9.0\\compressed\\zxrd1djrz5-6pqz8bsss0.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -273,7 +273,7 @@
     },
     {
       "Route": "exampleJsInterop.6pqz8bsss0.js.gz",
-      "AssetFile": "C:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\obj\\Debug\\net9.0\\compressed\\sqyknivdrx-6pqz8bsss0.gz",
+      "AssetFile": "C:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\obj\\Debug\\net9.0\\compressed\\zxrd1djrz5-6pqz8bsss0.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -326,7 +326,7 @@
     },
     {
       "Route": "exampleJsInterop.js",
-      "AssetFile": "C:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\obj\\Debug\\net9.0\\compressed\\sqyknivdrx-6pqz8bsss0.gz",
+      "AssetFile": "C:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\obj\\Debug\\net9.0\\compressed\\zxrd1djrz5-6pqz8bsss0.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -418,7 +418,7 @@
     },
     {
       "Route": "exampleJsInterop.js.gz",
-      "AssetFile": "C:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\obj\\Debug\\net9.0\\compressed\\sqyknivdrx-6pqz8bsss0.gz",
+      "AssetFile": "C:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Core\\obj\\Debug\\net9.0\\compressed\\zxrd1djrz5-6pqz8bsss0.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {

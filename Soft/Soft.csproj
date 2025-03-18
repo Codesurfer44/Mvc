@@ -5,7 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>aspnet-Soft-23490635-5ed2-47cf-9018-f4db14b30f11</UserSecretsId>
-    <AssemblyName>$(SolutionName).$(MSBuildProjectName.Replace(" ", "_"))</AssemblyName>
+    <AssemblyName>$(MSBuildProjectName.Replace(" ", "_"))</AssemblyName>
     <RootNameSpace>$(SolutionName).$(MSBuildProjectName.Replace(" ", "_"))</RootNameSpace>
   </PropertyGroup>
 
