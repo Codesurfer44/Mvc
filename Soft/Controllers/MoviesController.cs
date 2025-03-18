@@ -1,22 +1,19 @@
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using Mvc.Domain;
 using Mvc.Soft.Data;
 using Mvc.Infra;
-using NuGet.Protocol;
 
 
 namespace Mvc.Soft.Controllers;
 
 public class MoviesController(ApplicationDbContext c) : Controller {
-    private readonly ApplicationDbContext context = c;
     private readonly Repo<Movie> r = new(c);
-    public async Task<IActionResult> Index() => View(await r.GetAsync());
-    public async Task<IActionResult> Details(int? id)
-    {
-        var movie = await r.GetAsync(id);
-        return (movie == null) ? NotFound() : View(movie);
+    private async Task<IActionResult> showAsync(string viewName, int? id) {
+        var x = await r.GetAsync(id);
+        return (x == null) ? NotFound() : View(viewName, x);
     }
+    public async Task<IActionResult> Index() => View(await r.GetAsync());
+    public async Task<IActionResult> Details(int? id) => await showAsync(nameof (Details), id);
     public IActionResult Create() => View();
     [HttpPost, ValidateAntiForgeryToken]
     public async Task<IActionResult> Create(Movie movie) {
@@ -24,10 +21,7 @@ public class MoviesController(ApplicationDbContext c) : Controller {
         await r.AddAsync(movie);
         return RedirectToAction(nameof(Index));
     }
-    public async Task<IActionResult> Edit(int? id) {
-        var movie = await r.GetAsync(id);
-        return (movie == null) ? NotFound() : View(movie);
-    }
+    public async Task<IActionResult> Edit(int? id) => await showAsync(nameof (Edit), id);
     [HttpPost, ValidateAntiForgeryToken]
     public async Task<IActionResult> Edit(int id, Movie movie) {
         if (id != movie.Id) return NotFound();
@@ -36,10 +30,7 @@ public class MoviesController(ApplicationDbContext c) : Controller {
         await r.UpdateAsync(movie);
         return RedirectToAction(nameof(Index));
     }
-    public async Task<IActionResult> Delete(int? id) {
-        var movie = await r.GetAsync(id);
-        return (movie == null) ? NotFound() : View(movie);
-    }
+    public async Task<IActionResult> Delete(int? id) => await showAsync(nameof (Delete), id);
     [HttpPost, ActionName("Delete"), ValidateAntiForgeryToken]
     public async Task<IActionResult> DeleteConfirmed(int id) {
         await r.DeleteAsync(id);

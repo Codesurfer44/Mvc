@@ -3185,28 +3185,28 @@
           "lib/netcoreapp2.1/_._": {}
         }
       },
-      ".Domain/1.0.0": {
+      "Mvc.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "compile": {
-          "bin/placeholder/.Domain.dll": {}
+          "bin/placeholder/Mvc.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/.Domain.dll": {}
+          "bin/placeholder/Mvc.Domain.dll": {}
         }
       },
-      ".Infra/1.0.0": {
+      "Mvc.Infra/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          ".Domain": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "9.0.3"
+          "Microsoft.EntityFrameworkCore": "9.0.3",
+          "Mvc.Domain": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/.Infra.dll": {}
+          "bin/placeholder/Mvc.Infra.dll": {}
         },
         "runtime": {
-          "bin/placeholder/.Infra.dll": {}
+          "bin/placeholder/Mvc.Infra.dll": {}
         }
       }
     }
@@ -8469,12 +8469,12 @@
         "version.txt"
       ]
     },
-    ".Domain/1.0.0": {
+    "Mvc.Domain/1.0.0": {
       "type": "project",
       "path": "../Domain/Domain.csproj",
       "msbuildProject": "../Domain/Domain.csproj"
     },
-    ".Infra/1.0.0": {
+    "Mvc.Infra/1.0.0": {
       "type": "project",
       "path": "../Infra/Infra.csproj",
       "msbuildProject": "../Infra/Infra.csproj"
@@ -8482,7 +8482,6 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      ".Infra >= 1.0.0",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 9.0.2",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 9.0.2",
       "Microsoft.AspNetCore.Identity.UI >= 9.0.2",
@@ -8490,7 +8489,8 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.3",
       "Microsoft.EntityFrameworkCore.Sqlite >= 9.0.3",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.3",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 9.0.0"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 9.0.0",
+      "Mvc.Infra >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -8500,11 +8500,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Soft\\Soft.csproj",
-      "projectName": ".Soft",
-      "projectPath": "c:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Soft\\Soft.csproj",
+      "projectUniqueName": "C:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Soft\\Soft.csproj",
+      "projectName": "Mvc.Soft",
+      "projectPath": "C:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Soft\\Soft.csproj",
       "packagesPath": "C:\\Users\\Codes\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Soft\\obj\\",
+      "outputPath": "C:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Soft\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -8526,8 +8526,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "c:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Infra\\Infra.csproj": {
-              "projectPath": "c:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Infra\\Infra.csproj"
+            "C:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Infra\\Infra.csproj": {
+              "projectPath": "C:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Infra\\Infra.csproj"
             }
           }
         }
