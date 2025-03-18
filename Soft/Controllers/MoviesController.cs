@@ -26,7 +26,6 @@ public class MoviesController(ApplicationDbContext c) : Controller {
     public async Task<IActionResult> Edit(int id, Movie movie) {
         if (id != movie.Id) return NotFound();
         if (!ModelState.IsValid) return View(movie);
-        context.Movie.Update(movie);
         await r.UpdateAsync(movie);
         return RedirectToAction(nameof(Index));
     }

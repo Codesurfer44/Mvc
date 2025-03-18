@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tWM6IBDLBb0=",
+  "dgSpecHash": "UT4hJQB8Aec=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Soft\\Soft.csproj",
+  "projectFilePath": "c:\\Users\\Codes\\CodeSurfing\\TalTech\\Projektid\\VSCode\\Mvc\\Soft\\Soft.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Codes\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Codes\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
