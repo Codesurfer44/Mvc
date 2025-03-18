@@ -15,7 +15,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="9.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="*" />
+    <PackageReference Include="Microsoft.AspNetCore.Html.Abstractions" Version="*" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="*" />
   </ItemGroup>
 
 </Project>

@@ -1,3 +1,8 @@
+C:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Infra\bin\Debug\net9.0\Mvc.Infra.deps.json
+C:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Infra\bin\Debug\net9.0\Mvc.Infra.dll
+C:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Infra\bin\Debug\net9.0\Mvc.Infra.pdb
+C:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Infra\bin\Debug\net9.0\Mvc.Domain.dll
+C:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Infra\bin\Debug\net9.0\Mvc.Domain.pdb
 C:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Infra\obj\Debug\net9.0\Infra.csproj.AssemblyReference.cache
 C:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Infra\obj\Debug\net9.0\Infra.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Infra\obj\Debug\net9.0\Infra.AssemblyInfoInputs.cache
@@ -5,12 +10,7 @@ C:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Infra\obj\Debug\net9.0\I
 C:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Infra\obj\Debug\net9.0\Infra.csproj.CoreCompileInputs.cache
 C:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Infra\obj\Debug\net9.0\Infra.sourcelink.json
 C:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Infra\obj\Debug\net9.0\Infra.csproj.Up2Date
-c:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Infra\bin\Debug\net9.0\.Infra.deps.json
-c:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Infra\bin\Debug\net9.0\.Infra.dll
-c:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Infra\bin\Debug\net9.0\.Infra.pdb
-c:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Infra\bin\Debug\net9.0\.Domain.dll
-c:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Infra\bin\Debug\net9.0\.Domain.pdb
-c:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Infra\obj\Debug\net9.0\.Infra.dll
-c:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Infra\obj\Debug\net9.0\refint\.Infra.dll
-c:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Infra\obj\Debug\net9.0\.Infra.pdb
-c:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Infra\obj\Debug\net9.0\ref\.Infra.dll
+C:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Infra\obj\Debug\net9.0\Mvc.Infra.dll
+C:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Infra\obj\Debug\net9.0\refint\Mvc.Infra.dll
+C:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Infra\obj\Debug\net9.0\Mvc.Infra.pdb
+C:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Infra\obj\Debug\net9.0\ref\Mvc.Infra.dll
