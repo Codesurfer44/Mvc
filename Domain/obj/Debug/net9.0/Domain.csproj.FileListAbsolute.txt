@@ -3,10 +3,10 @@ C:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Domain\obj\Debug\net9.0\
 C:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Domain\obj\Debug\net9.0\Domain.AssemblyInfo.cs
 C:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Domain\obj\Debug\net9.0\Domain.csproj.CoreCompileInputs.cache
 C:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Domain\obj\Debug\net9.0\Domain.sourcelink.json
-C:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Domain\bin\Debug\net9.0\.Domain.deps.json
+c:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Domain\bin\Debug\net9.0\.Domain.deps.json
 c:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Domain\bin\Debug\net9.0\.Domain.dll
 c:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Domain\bin\Debug\net9.0\.Domain.pdb
 c:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Domain\obj\Debug\net9.0\.Domain.dll
 c:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Domain\obj\Debug\net9.0\refint\.Domain.dll
 c:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Domain\obj\Debug\net9.0\.Domain.pdb
-C:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Domain\obj\Debug\net9.0\ref\.Domain.dll
+c:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Domain\obj\Debug\net9.0\ref\.Domain.dll

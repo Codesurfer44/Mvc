@@ -3,10 +3,10 @@ C:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Aids\obj\Debug\net9.0\Ai
 C:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Aids\obj\Debug\net9.0\Aids.AssemblyInfo.cs
 C:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Aids\obj\Debug\net9.0\Aids.csproj.CoreCompileInputs.cache
 C:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Aids\obj\Debug\net9.0\Aids.sourcelink.json
-C:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Aids\bin\Debug\net9.0\.Aids.deps.json
+c:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Aids\bin\Debug\net9.0\.Aids.deps.json
 c:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Aids\bin\Debug\net9.0\.Aids.dll
 c:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Aids\bin\Debug\net9.0\.Aids.pdb
 c:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Aids\obj\Debug\net9.0\.Aids.dll
 c:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Aids\obj\Debug\net9.0\refint\.Aids.dll
 c:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Aids\obj\Debug\net9.0\.Aids.pdb
-C:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Aids\obj\Debug\net9.0\ref\.Aids.dll
+c:\Users\Codes\CodeSurfing\TalTech\Projektid\VSCode\Mvc\Aids\obj\Debug\net9.0\ref\.Aids.dll
